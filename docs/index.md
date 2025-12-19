@@ -4,10 +4,9 @@ layout: page
 
 <div class="bg-gray-50 text-gray-800">
 
-<!-- 导航栏 -->
+
 <header class="fixed w-full bg-white bg-opacity-90 backdrop-blur-sm shadow-sm z-10">
  <div class="container mx-auto px-6 py-3">
-    <!-- 第一行：Logo + 导航 + 搜索（全部靠左） -->
     <div class="flex items-center gap-6 flex-wrap">
       <!-- Logo -->
       <div class="flex items-center space-x-3">
@@ -16,7 +15,6 @@ layout: page
           HSH
         </span>
       </div>
-      <!-- 导航（靠左排列） -->
       <nav class="flex items-center gap-5 text-gray-600">
         <a href="#about" class="nav-link hover:text-primary flex items-center gap-1">
           <i class="fa-regular fa-user"></i> 个人介绍
@@ -37,7 +35,6 @@ layout: page
           <i class="fa-regular fa-envelope"></i> 联系我～
         </a>
       </nav>
-<!-- 搜索栏（紧跟在导航右侧） -->
       <div class="hidden md:block">
         <div class="relative">
           <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"></i>
@@ -49,7 +46,6 @@ layout: page
           />
         </div>
       </div>
-      <!-- 右侧少量装饰图标（可删） -->
       <div class="hidden lg:flex items-center gap-3 ml-auto">
         <a href="#projects"
            class="w-9 h-9 rounded-full bg-gray-100 hover:bg-gray-200 flex items-center justify-center text-gray-700"
@@ -68,7 +64,6 @@ layout: page
         </a>
       </div>
     </div>
-    <!-- 移动端搜索 -->
     <div class="mt-3 md:hidden">
       <div class="relative">
         <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"></i>
@@ -84,7 +79,6 @@ layout: page
   </div>
 </header>
 
-<!-- 个人介绍区域 -->
 <section id="about" class="section-padding pt-44">
 <div class="container mx-auto px-6">
     <div class="bg-white rounded-2xl shadow-lg p-8 flex flex-col md:flex-row items-center">
@@ -113,7 +107,6 @@ layout: page
   <div class="container mx-auto px-6">
     <h2 class="text-3xl font-bold text-center mb-16">教育经历</h2>
 <div class="relative edu-timeline max-w-3xl mx-auto">
-      <!-- 教育 1 -->
       <div class="relative pl-12 mb-12">
         <div class="edu-dot"></div>
         <div class="bg-white p-6 rounded-xl shadow-md">
@@ -126,7 +119,6 @@ layout: page
           </p>
         </div>
       </div>
-      <!-- 教育 2 -->
       <div class="relative pl-12">
         <div class="edu-dot"></div>
         <div class="bg-white p-6 rounded-xl shadow-md">
@@ -142,12 +134,10 @@ layout: page
     </div>
   </div>
 </section>
-<!-- 实习经历展示区 -->
 <section id="internship" class="section-padding">
   <div class="container mx-auto px-6">
     <h2 class="text-3xl font-bold text-center mb-16">实习经历</h2>
     <div class="relative internship-timeline max-w-3xl mx-auto">
-      <!-- 实习 1 -->
       <div class="relative pl-12">
         <div class="intern-dot"></div>
         <div class="bg-white p-6 rounded-xl shadow-md">
@@ -172,12 +162,10 @@ layout: page
     </div>
   </div>
 </section>
-<!-- 项目经历展示区 -->
 <section id="projects" class="section-padding bg-gray-100">
   <div class="container mx-auto px-6">
     <h2 class="text-3xl font-bold text-center mb-16">项目经历</h2>
     <div class="relative project-timeline max-w-4xl mx-auto">
-      <!-- 项目 1 -->
       <div class="mb-16 flex group">
         <div class="hidden md:block md:w-1/3"></div>
         <div class="md:w-2/3 pl-12 relative">
@@ -201,7 +189,6 @@ layout: page
           </div>
         </div>
       </div>
-      <!-- 项目 2 -->
       <div class="mb-16 flex group">
         <div class="md:w-2/3 pr-12 text-right relative">
           <div class="absolute right-[-54px] top-2 w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white group-hover:scale-110 transition-transform">
@@ -226,7 +213,6 @@ layout: page
         </div>
         <div class="hidden md:block md:w-1/3"></div>
       </div>
-      <!-- 项目 3 -->
       <div class="flex group">
         <div class="hidden md:block md:w-1/3"></div>
         <div class="md:w-2/3 pl-12 relative">
@@ -253,13 +239,10 @@ layout: page
     </div>
   </div>
 </section>
-
-<!-- 兴趣爱好展示区 -->
 <section id="hobbies" class="section-padding">
   <div class="container mx-auto px-6">
     <h2 class="text-3xl font-bold text-center mb-16">兴趣爱好</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-      <!-- 爱好 1：滑雪 -->
       <div class="hobby-card bg-white rounded-2xl shadow-md p-6 text-center">
         <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-blue-100 flex items-center justify-center">
           <i class="fas fa-skiing text-2xl text-blue-600"></i>
@@ -269,7 +252,6 @@ layout: page
           热爱单板滑雪，享受速度与挑战带来的自由感。
         </p>
       </div>
-      <!-- 爱好 2：旅行 -->
       <div class="hobby-card bg-white rounded-2xl shadow-md p-6 text-center">
         <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-green-100 flex items-center justify-center">
           <i class="fas fa-plane-departure text-2xl text-green-600"></i>
@@ -279,7 +261,6 @@ layout: page
           喜欢探索不同城市与文化，在旅途中获得灵感与成长。
         </p>
       </div>
-      <!-- 爱好 3：徒步 -->
       <div class="hobby-card bg-white rounded-2xl shadow-md p-6 text-center">
         <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-purple-100 flex items-center justify-center">
           <i class="fas fa-hiking text-2xl text-purple-600"></i>
@@ -289,7 +270,6 @@ layout: page
           热衷户外徒步与自然探索，享受慢节奏的生活方式。
         </p>
       </div>
-      <!-- 爱好 4：音乐 -->
       <div class="hobby-card bg-white rounded-2xl shadow-md p-6 text-center">
         <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-yellow-100 flex items-center justify-center">
           <i class="fas fa-music text-2xl text-yellow-600"></i>
@@ -304,7 +284,7 @@ layout: page
 </section>
 
 
-<!-- 联系方式区域 -->
+
 <section id="contact" class="section-padding bg-gray-100">
 <div class="container mx-auto px-6 py-16">
     <div class="max-w-3xl mx-auto text-center">

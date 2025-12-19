@@ -1,1 +1,0 @@
-import{_ as s,c as t,o as a,ae as l}from"./chunks/framework.5AgTDG_i.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{"layout":"page"},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),i={name:"index.md"};function d(r,e,c,n,x,o){return a(),t("div",null,[...e[0]||(e[0]=[l("",1)])])}const u=s(i,[["render",d]]);export{f as __pageData,u as default};

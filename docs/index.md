@@ -8,7 +8,6 @@ layout: page
 <header class="fixed w-full bg-white bg-opacity-90 backdrop-blur-sm shadow-sm z-10">
  <div class="container mx-auto px-6 py-3">
     <div class="flex items-center gap-6 flex-wrap">
-      <!-- Logo -->
       <div class="flex items-center space-x-3">
         <span class="font-logo text-2xl text-primary flex items-center gap-2">
           <i class="fa-solid fa-star"></i>

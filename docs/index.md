@@ -84,7 +84,7 @@ layout: page
     <div class="bg-white rounded-2xl shadow-lg p-8 flex flex-col md:flex-row items-center">
     <div class="md:w-1/3 mb-8 md:mb-0 flex justify-center">
       <div class="rounded-2xl overflow-hidden shadow-md">
-      <img src="/pic.jpg?url" class="slide-img" />
+       <img :src="$withBase('/img/1.JPG')" class="slide-img" />
       </div>
     </div>
       <div class="md:w-2/3 md:pl-12">
